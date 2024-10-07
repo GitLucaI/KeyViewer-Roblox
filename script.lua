@@ -6,7 +6,6 @@ local UI = {}
 
 -- // StarterGui.KeyLogger \\ --
 UI["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
-UI["1"]["Enabled"] = true
 UI["1"]["Name"] = [[KeyLogger]]
 UI["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
 UI["1"]["ResetOnSpawn"] = false
